@@ -1,0 +1,34 @@
+@import url(../header/header.css);
+
+@font-face {
+    font-family: Ribeye;
+    src: url(../../fonts/Ribeye-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto500;
+    src: url(../../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gelasio500;
+    src: url(../../fonts/Gelasio-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gelasio700;
+    src: url(../../fonts/Gelasio-Bold.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
