@@ -137,7 +137,7 @@ header main .main_btn {
 }
 @media (max-width: 447px) {
   header {
-    padding: 30px 70px;
+    padding: 30px 30px;
   }
   header nav ul {
     display: none;
