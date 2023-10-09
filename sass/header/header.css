@@ -133,6 +133,7 @@ header main .main_btn {
   }
   header main .main_title {
     font-size: 36px;
+    margin-top: 120px;
   }
 }
 @media (max-width: 447px) {
@@ -152,7 +153,7 @@ header main .main_btn {
   }
   header main .main_title {
     font-size: 36px;
-    margin-top: 130px;
+    margin-top: 100px;
   }
   header main .main_text {
     font-size: 16px;

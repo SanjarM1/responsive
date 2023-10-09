@@ -1,0 +1,115 @@
+.section1 {
+    width: 100%;
+    padding: 140px 150px 70px 150px;
+    background: #fff;
+
+    .section1_title {
+        color: #000;
+        font-family: Gelasio500;
+        font-size: 43px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .section1_text {
+        max-width: 735px;
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 160%;
+        margin: 20px auto 0 auto;
+        opacity: 0.6;
+    }
+
+    .section1_content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 50px;
+        .section1_content-box{
+            width: 328px;
+            border: 0.2px solid rgb(232, 223, 223);
+            border-radius: 10px;
+            padding-bottom: 30px;
+            img{
+                width: 100%;
+            }
+        }
+        .section1_content-box:hover{
+            box-shadow: 0 2px 5px gray;
+        }
+        .section1_box-title {
+            color: #000;
+            text-align: center;
+            font-family: Gelasio500;
+            font-size: 24px;
+            line-height: 150%;
+            margin-top: 35px;
+        }
+
+        .section1_box-text {
+            width: 306px;
+            color: #000;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 160%;
+            margin: 10px auto 0 auto;
+
+        }
+    }
+
+}
+
+
+@media (min-width: 1501px) {
+    .section1{
+        padding: 140px 230px 70px 230px;
+        
+    }
+}
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .section1{
+        padding: 140px 150px 70px 150px;
+        
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .section1{
+        padding: 100px 100px 50px 100px;
+        
+    }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+    .section1{
+        padding: 100px 100px 50px 100px;
+        
+    }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+    .section1{
+        padding: 80px 70px 40px 70px;
+        .section1_title{
+            font-size: 35px;
+        }
+        .section1_text{
+            font-size: 15px;
+        }
+        
+    }
+}
+@media (max-width: 447px) {
+    .section1{
+        padding: 50px 30px 25px 30px;
+        .section1_title{
+            font-size: 35px;
+        }
+        .section1_text{
+            font-size: 14px;
+        }
+        
+    }
+}

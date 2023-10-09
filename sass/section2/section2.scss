@@ -1,0 +1,167 @@
+.section2 {
+    width: 100%;
+    padding: 70px 150px 70px 150px;
+    background: #fff;
+
+    .section2_title {
+        color: #000;
+        font-family: Gelasio500;
+        font-size: 43px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .section2_text {
+        max-width: 656px;
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 160%;
+        margin: 20px auto 0 auto;
+        opacity: 0.6;
+    }
+
+    .section2_content {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 35px;
+
+        .section2_content-box {
+            width: 262px;
+            border-radius: 10px;
+
+            .card2-title {
+                color: #000;
+                font-family: Gelasio500;
+                font-size: 24px;
+                line-height: 150%;
+                margin-top: 20px;
+            }
+
+            .miniBox {
+                display: flex;
+                gap: 40px;
+                margin: 8px 0;
+            }
+
+            .logo {
+                margin-right: 15px;
+            }
+
+            .city {
+                color: #000;
+                font-family: Roboto;
+                font-size: 20px;
+                line-height: 150%;
+                opacity: 0.6;
+            }
+
+            .mark {
+                color: #000;
+                font-family: Roboto;
+                font-size: 18px;
+                line-height: 150%;
+            }
+
+            .card2-text {
+                color: #000;
+                font-family: Roboto;
+                font-size: 16px;
+                line-height: 150%;
+                opacity: 0.6;
+                margin-bottom: 8px;
+            }
+
+            .card2-price {
+                color: #000;
+                font-family: Roboto500;
+                font-size: 18px;
+                line-height: 150%;
+
+            }
+
+            .card2-person {
+                color: rgba(0, 0, 0, 0.60);
+                font-family: Roboto;
+                font-size: 16px;
+                line-height: 150%;
+            }
+        }
+    }
+    .slide {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    
+    .slide-item2 {
+        padding-bottom: 5px;
+    }
+}
+
+
+@media (min-width: 1501px) {
+    .section2{
+        padding: 70px 150px 70px 150px;
+        
+    }
+}
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .section2{
+        padding: 70px 150px 70px 150px;
+        .unbox1{
+            display: none;
+        }
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .section2{
+        padding: 50px 100px 50px 100px;
+        .unbox1, .unbox2{
+            display: none;
+        }
+        
+    }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+    .section2{
+        padding: 50px 100px 50px 100px;
+        .unbox1, .unbox2{
+            display: none;
+        }
+        
+    }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+    .section2{
+        padding: 40px 70px 40px 70px;
+        .section2_title{
+            font-size: 35px;
+        }
+        .section2_text{
+            font-size: 15px;
+        }
+        .unbox1, .unbox2, .unbox3{
+            display: none;
+        }
+    }
+}
+@media (max-width: 447px) {
+    .section2{
+        padding: 25px 30px 25px 30px;
+        .section2_title{
+            font-size: 35px;
+        }
+        .section2_text{
+            font-size: 14px;
+        }
+        .unbox1, .unbox2, .unbox3{
+            display: none;
+        }
+    }
+}

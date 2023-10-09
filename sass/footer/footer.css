@@ -1,0 +1,105 @@
+footer {
+  width: 100%;
+  background: rgba(38, 148, 153, 0.0392156863);
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  padding: 70px 150px 70px 150px;
+}
+footer .footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer-list li {
+  list-style: none;
+}
+footer .footer-list a {
+  color: #000;
+  font-family: Roboto500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+}
+footer .brand {
+  margin-bottom: 40px;
+  color: #000;
+  font-family: Ribeye;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 1.44px;
+}
+footer .form-btn {
+  padding: 10px 32px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.96px;
+  border-radius: 5px;
+  background: #C9453B;
+  border: none;
+  cursor: pointer;
+}
+footer input {
+  padding: 12.4px 10px 12.4px 20px;
+  border: 1px solid gray;
+  outline: none;
+}
+footer input::-moz-placeholder {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.96px;
+}
+footer input::placeholder {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.96px;
+}
+footer .form-btn:hover {
+  background-color: red;
+}
+footer .form-btn:active {
+  background-color: white;
+  color: red;
+}
+
+@media (min-width: 1501px) {
+  footer {
+    padding: 70px 150px 70px 150px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1500px) {
+  footer {
+    padding: 70px 100px 70px 100px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .footer {
+    padding: 50px 100px 50px 100px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  footer {
+    padding: 50px 100px 50px 100px;
+    gap: 50px;
+  }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  footer {
+    padding: 40px 70px 40px 70px;
+    gap: 40px;
+  }
+}
+@media (max-width: 447px) {
+  footer {
+    padding: 25px 30px 25px 30px;
+  }
+}/*# sourceMappingURL=footer.css.map */
